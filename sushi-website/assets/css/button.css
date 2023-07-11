@@ -1,0 +1,24 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  background-color: var(--first-color);
+  padding: 1rem 1.5rem;
+  border-radius: 4rem;
+  color: #FFF;
+  font-weight: var(--font-medium);
+  transition: background .3s;
+}
+
+.button i {
+  font-size: 1.2rem;
+  transition: transform .3s;
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button:hover i {
+  transform: translateX(.25rem);
+}

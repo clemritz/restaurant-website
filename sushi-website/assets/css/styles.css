@@ -7,13 +7,13 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(19, 64%, 54%);
-  --first-color-alt: hsl(19, 64%, 52%);
-  --title-color: hsl(19, 16%, 15%);
-  --text-color: hsl(19, 16%, 35%);
-  --text-color-light: hsl(19, 8%, 55%);
-  --body-color: hsl(19, 100%, 96%);
-  --container-color: hsl(19, 100%, 97%);
+  --first-color: #d56e3f;
+  --first-color-alt: #ed5e1d;
+  --title-color: #2c2420;
+  --text-color: #68544b;
+  --text-color-light: #958983;
+  --body-color: #fff1eb;
+  --container-color: #fff5f0;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -134,36 +134,6 @@ img {
 .main {
   overflow: hidden; /* For animation ScrollReveal */
 }
-
-/*=============== HOME ===============*/
-
-
-/*=============== BUTTON ===============*/
-
-
-/*=============== ABOUT ===============*/
-
-
-/*=============== POPULAR ===============*/
-
-
-/*=============== RECENTLY ===============*/
-
-
-/*=============== NEWSLETTER ===============*/
-
-
-/*=============== FOOTER ===============*/
-
-
-/*=============== SCROLL BAR ===============*/
-
-
-/*=============== SCROLL UP ===============*/
-
-
-/* Show Scroll Up*/
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
