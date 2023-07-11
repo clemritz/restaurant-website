@@ -57,7 +57,7 @@
     left: 0;
     background-color: var(--body-color);
     width: 100%;
-    box-shadow: 0 8px 20px hsla(19, 64%, 24%, 0.1);
+    box-shadow: 0 8px 20px #642f161a;
     padding-block: 3.5rem;
     transition: top .4s;
   }
