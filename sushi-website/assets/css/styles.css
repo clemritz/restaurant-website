@@ -135,6 +135,11 @@ img {
   overflow: hidden; /* For animation ScrollReveal */
 }
 
+/*=============== Change background header ===============*/
+.bg-header {
+  box-shadow: 0 2px 8px #642f161a;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
