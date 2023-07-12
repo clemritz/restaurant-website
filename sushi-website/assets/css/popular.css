@@ -12,6 +12,7 @@
   box-shadow: 0 8px 20px #c95e2c14;
   border-radius: 1rem;
   text-align: center;
+  transition: background 0.4s; /* for dark mode animation */
 }
 
 .popular__img {
