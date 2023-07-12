@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: #e1dcdb;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: .5rem;
+  background-color: #ada39f;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #958883;
+}
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: 3rem;
+  background-color: var(--container-color);
+  box-shadow: 0 4px 12px #642f161a;
+  display: inline-flex;
+  padding: .35rem;
+  border-radius: .25rem;
+  font-size: 1.1rem;
+  color: var(--first-color);
+  z-index: var(--z-tooltip);
+  transition: bottom .3s, transform .3s, background .4s;
+}
+
+.scrollup:hover {
+  transform: translateY(-.25rem);
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
+
+.active-link {
+  color: var(--first-color);
+}
