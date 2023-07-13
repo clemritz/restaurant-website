@@ -4,6 +4,10 @@
     margin-inline: 1rem;
   }
 
+  .grid {
+    gap: 4.5rem;
+  }
+
   .section {
     padding-block: 4rem 1rem;
   }
@@ -56,6 +60,10 @@
   .newsletter__content {
     grid-template-columns: .7fr;
     justify-content: center;
+  }
+
+  .grid {
+    gap: 4.5rem;
   }
 
   .footer__content {
